@@ -1,0 +1,68 @@
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 50px;
+    background-color: white;
+   
+}
+
+.diff-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+}
+
+img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 6px;
+    border-radius: 15px;
+}
+
+
+.controls button:hover {
+    transform: translateY(-3px);
+    border-color: #38bdf8;
+    box-shadow: 0 0 15px rgba(56,189,248,0.35);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+.controls button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.title{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+body{
+    background-image: url(/rpsfullstack/assets/Space-Background-Image-2.jpg);
+}
+
+.game{
+    display: flex;
+    background-color: white;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 23rem;
+}
+
+.play-again-btn{
+    margin-bottom: 50px;
+}
