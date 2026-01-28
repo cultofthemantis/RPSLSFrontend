@@ -112,7 +112,7 @@ function resetGame() {
 
 easyBtn.addEventListener("click", () => {
   let easy = true;
-  winLimit = 2;
+  winLimit = 1;
   resetGame();
 });
 
