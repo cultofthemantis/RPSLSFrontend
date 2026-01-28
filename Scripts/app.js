@@ -14,7 +14,7 @@ const userScore = document.getElementById("userScore");
 
 let cpuCounter = 0;
 let userCounter = 0;
-let winLimit = 2;
+let winLimit = 1;
 let gameOver = false;
 let isPvp = false;
 let currentPlayer = 1;
@@ -69,7 +69,7 @@ spockBtn.addEventListener("click", () => playGame("spock"));
 
 function checkWinCondition() {
   if ((easy = true)) {
-    winLimit = 2;
+    winLimit = 1;
     if (cpuCounter == winLimit) {
       resultEl.textContent = "CPU Victory";
     }
