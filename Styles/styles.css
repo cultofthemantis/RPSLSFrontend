@@ -16,6 +16,13 @@
     background-color: white;
 }
 
+.scoretable{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
 img {
     display: flex;
     width: 100px;
@@ -65,4 +72,11 @@ body{
 
 .play-again-btn{
     margin-bottom: 50px;
+}
+
+.rules{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: center;
 }
